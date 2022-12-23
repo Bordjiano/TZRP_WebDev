@@ -32,3 +32,16 @@ function isDivisible(n, x, y){
     // n % x === 0 && n % y === 0 ? true : false
     return n % x === 0 && n % y === 0
 }
+
+//  Task 6
+function task6(n){
+    let arr = []
+    let sum = 0, min = 0, max = 0
+    for (let i = 0; i < n; i++){
+        arr[i] = Math.floor(Math.random() * 30)
+        sum += arr[i]
+        min = Math.min(arr[i], min)
+        max = Math.max(arr[i], max)
+    }
+    console.log({min, max, sum, avg: sum / n})
+}
