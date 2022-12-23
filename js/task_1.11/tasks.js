@@ -63,3 +63,17 @@ function task7(){
     }
     console.log(arr)
 }
+
+//  Task 8
+function main(a = parseInt(prompt()), b = parseInt(prompt()) , c = prompt()){
+    if (c === "+")
+        return a + b
+    else if (c === "-")
+        return a - b
+    else if (c === "*" && b !== 0)
+        return a / b
+    else if (c === "*")
+        return a * b
+    else
+        return "Error"
+}
