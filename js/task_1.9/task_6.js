@@ -1,0 +1,11 @@
+const month = prompt()
+if (month < 3)
+    alert("Winter")
+else if (month < 6)
+    alert("Spring")
+else if (month < 9)
+    alert("Summer")
+else if (month < 12)
+    alert("Autumn")
+else
+    alert("Winter")
