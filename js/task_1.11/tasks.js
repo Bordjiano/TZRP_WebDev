@@ -21,3 +21,8 @@ function task3(n){
             console.log(i)
     }
 }
+
+//  Task 4
+function Calculate(a, b, c){
+    return (a + b + c) / 3
+}
