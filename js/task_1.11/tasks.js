@@ -45,3 +45,21 @@ function task6(n){
     }
     console.log({min, max, sum, avg: sum / n})
 }
+
+//  Task 7
+function task7(){
+    const arr = []
+    for (let i = 0; i < 5; i++) {
+        arr[i] = []
+        for (let j = 0; j < 5; j++){
+            arr[i][j] = Math.floor(Math.random() * 30 - 15)
+            if (i === j){
+                if (arr[i][j] > 0)
+                    arr[i][j] = 1
+                else
+                    arr[i][j] = 0
+            }
+        }
+    }
+    console.log(arr)
+}
