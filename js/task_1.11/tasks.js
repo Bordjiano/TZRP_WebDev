@@ -77,3 +77,44 @@ function main(a = parseInt(prompt()), b = parseInt(prompt()) , c = prompt()){
     else
         return "Error"
 }
+
+//  Task 9
+function task9(n){
+    //  Positive or Negative
+    if (n > 0)
+        console.log("Positive")
+    else if (n < 0)
+        console.log("Negative")
+    else
+        console.log("Zero")
+
+    //  Keep number
+    if(n === 2 || n === 3)
+        console.log("Keep number")
+    else if (i % 2 !== 0 && i % 3 !== 0)
+        console.log("Keep number")
+    else
+        console.log("Not keep number")
+
+    //  Div on 2, 3, 5, 6, 9
+    if (n % 2 === 0)
+        console.log("+")
+    else
+        console.log("-")
+    if (n % 3 === 0)
+        console.log("+")
+    else
+        console.log("-")
+    if (n % 5 === 0)
+        console.log("+")
+    else
+        console.log("-")
+    if (n % 6 === 0)
+        console.log("+")
+    else
+        console.log("-")
+    if (n % 9 === 0)
+        console.log("+")
+    else
+        console.log("-")
+}
