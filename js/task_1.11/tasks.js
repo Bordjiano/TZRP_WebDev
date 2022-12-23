@@ -26,3 +26,9 @@ function task3(n){
 function Calculate(a, b, c){
     return (a + b + c) / 3
 }
+
+//  Task 5
+function isDivisible(n, x, y){
+    // n % x === 0 && n % y === 0 ? true : false
+    return n % x === 0 && n % y === 0
+}
