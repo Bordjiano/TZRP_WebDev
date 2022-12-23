@@ -128,3 +128,12 @@ function task10(arr){
     }
     console.log(arr)
 }
+
+//  Task 11
+function task11(arr) {
+    let set = new Set()
+    for (let i = 0; i < arr.length; i++) {
+        set.add(arr[i])
+    }
+    console.log(Array.of(set))
+}
